@@ -9,7 +9,7 @@ Image restoration problems were traditionally formulated as the minimization of 
 <img src="figs/synthetic.png" width="700px"/> 
 
 # Citing
-Please consider to cite PnP-TV if you find it helpful.
+Please, consider to cite PnP-TV if you find it helpful.
 
 ```BibTex
 @article{cascarano2021plug,
