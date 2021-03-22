@@ -5,19 +5,9 @@
 # Abstract
 Blur and noise corrupting Computed Tomography (CT) images can hide or distort small but important details, negatively affecting the diagnosis. In this paper, we present a novel gradient-based Plug-and-Play algorithm, constructed on the Half-Quadratic Splitting scheme, and we apply it to restore CT images. In particular, we consider different schemes encompassing external and internal denoisers as priors, defined on the image gradient domain. The internal prior is based on the Total Variation functional. The external denoiser is implemented by a deep Convolutional Neural Network (CNN) trained on the gradient domain (and not on the image one, as in state-of-the-art works). We also prove a general fixed-point convergence theorem under weak assumptions on both internal and external denoisers. The experiments confirm the effectiveness of the proposed framework in restoring blurred noisy CT images, both in simulated and real medical settings. The achieved enhancements in the restored images are really remarkable, if compared to the results of many state-of-the-art methods.
 
-## Image Denoising
+## Image Deblurring and Denoising
 <img src="figs/synthetic.png" width="700px"/> 
 
 # Citing
-Please, consider to cite PnP-TV if you find it helpful.
+Please, consider to cite this preprint if you find it helpful.
 
-```BibTex
-@article{cascarano2021plug,
-  title={Plug-and-Play external and internal priors for image restoration},
-  author={Cascarano, Pasquale and Piccolomini, Elena Loli and Morotti, Elena and Sebastiani, Andrea},
-  journal={arXiv preprint arXiv:2102.07510},
-  year={2021}
-}
-
-
- ```
