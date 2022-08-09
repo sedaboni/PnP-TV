@@ -9,5 +9,16 @@ Blur and noise corrupting Computed Tomography (CT) images can hide or distort sm
 <img src="figs/synthetic.png" width="700px"/> 
 
 # Citing
-Please, consider to cite this preprint if you find it helpful.
+Please, consider to cite this paper if you find it helpful.
 
+```BibTex
+@article{cascarano2022plug,
+  title={Plug-and-Play gradient-based denoisers applied to CT image enhancement},
+  author={Cascarano, Pasquale and Piccolomini, Elena Loli and Morotti, Elena and Sebastiani, Andrea},
+  journal={Applied Mathematics and Computation},
+  volume={422},
+  pages={126967},
+  year={2022},
+  publisher={Elsevier}
+}
+ ```
